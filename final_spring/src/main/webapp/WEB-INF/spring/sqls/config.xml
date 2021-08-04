@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.spring.recycle.model.dto.FundingDto" alias="fundingDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.MessageDto" alias="MessageDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.MemberDto" alias="memberDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.GroupDto" alias="GroupDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.GroupReplyDto" alias="GroupReplyDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.EventDto" alias="EventDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.BoardDto" alias="BoardDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.NaverLoginDto" alias="NaverLoginDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.ChatRoomDto" alias="chatRoomDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.ChatMessageDto" alias="chatMessageDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.DealBoardDto" alias="DealBoardDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.PaymentDto" alias="PaymentDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.InfoDto" alias="InfoDto"/>
+		<typeAlias type="com.spring.recycle.model.dto.InfoDto" alias="WishDto"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="/mybatis/funding-mapper.xml"/>
+		<mapper resource="/mybatis/message-mapper.xml"/>
+		<mapper resource="/mybatis/member-mapper.xml"/>
+		<mapper resource="/mybatis/group-mapper.xml"/>
+		<mapper resource="/mybatis/group_reply-mapper.xml"/>
+		<mapper resource="/mybatis/event-mapper.xml"/>
+		<mapper resource="/mybatis/board-mapper.xml"/>
+		<mapper resource="/mybatis/RoomChat-mapper.xml"/>
+		<mapper resource="/mybatis/DealBoard-mapper.xml"/>
+		<mapper resource="/mybatis/payment-mapper.xml"/>
+		<mapper resource="/mybatis/info-mapper.xml"/>
+		<mapper resource="/mybatis/MyPage-mapper.xml"/>
+	</mappers>
+
+</configuration>
