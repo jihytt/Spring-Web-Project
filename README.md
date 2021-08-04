@@ -19,14 +19,14 @@
   - 로그인 유지 기능
   - SNS 로그인(KAKAO,NAVER)
   - 쪽지 기능
+  - 챗봇
   - 펀딩 게시판, Q&A게시판, 관리자 페이지
 <br/>
 
 <br/>
 
 ## 1. 구현 기능
-  <br/>
-
+ 
   &emsp;**회원가입** (SMTP, 도로명주소 API)   
   &emsp;**로그인** (Spring-Security, Google reCHAPCHA, 로그인 유지 기능)   
   &emsp;**SNS로그인** (KAKAO, NAVER)   
